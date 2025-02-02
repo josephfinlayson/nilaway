@@ -28,7 +28,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
-	"go.uber.org/nilaway/config"
+	"github.com/josephfinlayson/nilaway/config"
 	"golang.org/x/tools/go/analysis/analysistest"
 )
 

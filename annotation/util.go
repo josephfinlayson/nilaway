@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"go/types"
 
-	"go.uber.org/nilaway/util"
+	"github.com/josephfinlayson/nilaway/util"
 )
 
 // DeepNilabilityAsNamedType tries to interpret the named type as a typedef of a map or slice,

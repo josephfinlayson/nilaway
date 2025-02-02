@@ -19,7 +19,7 @@ import (
 	"go/token"
 	"strings"
 
-	"go.uber.org/nilaway/annotation"
+	"github.com/josephfinlayson/nilaway/annotation"
 )
 
 type nilFlow struct {

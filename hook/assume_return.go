@@ -18,7 +18,7 @@ import (
 	"go/ast"
 	"regexp"
 
-	"go.uber.org/nilaway/annotation"
+	"github.com/josephfinlayson/nilaway/annotation"
 	"golang.org/x/tools/go/analysis"
 )
 

@@ -19,8 +19,8 @@ import (
 	"go/ast"
 	"go/types"
 
-	"go.uber.org/nilaway/annotation"
-	"go.uber.org/nilaway/util"
+	"github.com/josephfinlayson/nilaway/annotation"
+	"github.com/josephfinlayson/nilaway/util"
 )
 
 type funcAssertionNode struct {

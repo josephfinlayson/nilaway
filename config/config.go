@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"strings"
 
-	"go.uber.org/nilaway/util/asthelper"
+	"github.com/josephfinlayson/nilaway/util/asthelper"
 	"golang.org/x/tools/go/analysis"
 )
 

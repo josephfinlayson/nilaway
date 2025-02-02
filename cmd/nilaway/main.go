@@ -24,8 +24,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go.uber.org/nilaway"
-	"go.uber.org/nilaway/config"
+	"github.com/josephfinlayson/nilaway"
+	"github.com/josephfinlayson/nilaway/config"
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/analysis/singlechecker"
 )

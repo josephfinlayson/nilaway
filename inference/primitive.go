@@ -20,7 +20,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"go.uber.org/nilaway/annotation"
+	"github.com/josephfinlayson/nilaway/annotation"
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/types/objectpath"
 )

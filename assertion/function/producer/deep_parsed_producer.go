@@ -14,7 +14,7 @@
 
 package producer
 
-import "go.uber.org/nilaway/annotation"
+import "github.com/josephfinlayson/nilaway/annotation"
 
 // DeepParsedProducer is a ParsedProducer that contains information about deeply produced values.
 // This information will only be read if the produced value turns out to be one of the following cases.

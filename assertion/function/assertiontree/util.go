@@ -20,8 +20,8 @@ import (
 	"go/token"
 	"go/types"
 
-	"go.uber.org/nilaway/annotation"
-	"go.uber.org/nilaway/util"
+	"github.com/josephfinlayson/nilaway/annotation"
+	"github.com/josephfinlayson/nilaway/util"
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/ast/astutil"
 )

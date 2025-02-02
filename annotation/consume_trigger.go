@@ -21,8 +21,8 @@ import (
 	"go/types"
 	"strings"
 
-	"go.uber.org/nilaway/util"
-	"go.uber.org/nilaway/util/orderedmap"
+	"github.com/josephfinlayson/nilaway/util"
+	"github.com/josephfinlayson/nilaway/util/orderedmap"
 )
 
 // A ConsumingAnnotationTrigger indicated a possible reason that a nil flow to this site would indicate

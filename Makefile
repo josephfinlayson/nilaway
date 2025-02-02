@@ -17,7 +17,7 @@ clean:
 
 .PHONY: build
 build:
-	go install go.uber.org/nilaway/cmd/nilaway
+	go install github.com/josephfinlayson/nilaway/cmd/nilaway
 
 .PHONY: test
 test:
@@ -32,12 +32,12 @@ cover:
 
 .PHONY: golden-test
 golden-test:
-	@cd tools && go install go.uber.org/nilaway/tools/cmd/golden-test
+	@cd tools && go install github.com/josephfinlayson/nilaway/tools/cmd/golden-test
 	@$(GOBIN)/golden-test $(ARGS)
 
 .PHONY: integration-test
 integration-test:
-	@cd tools && go install go.uber.org/nilaway/tools/cmd/integration-test
+	@cd tools && go install github.com/josephfinlayson/nilaway/tools/cmd/integration-test
 	@$(GOBIN)/integration-test
 
 .PHONY: lint
@@ -72,4 +72,4 @@ nilaway-lint: build
 	@$(foreach mod,$(MODULE_DIRS), \
 		(cd $(mod) && \
 		echo "[lint] nilaway linting itself: $(mod)" && \
-		$(GOBIN)/nilaway -include-pkgs="go.uber.org/nilaway" ./...) &&) true
+		$(GOBIN)/nilaway -include-pkgs="github.com/josephfinlayson/nilaway" ./...) &&) true

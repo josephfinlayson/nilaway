@@ -18,10 +18,10 @@ import (
 	"go/ast"
 	"go/types"
 
-	"go.uber.org/nilaway/annotation"
-	"go.uber.org/nilaway/assertion/structfield"
-	"go.uber.org/nilaway/util"
-	"go.uber.org/nilaway/util/analysishelper"
+	"github.com/josephfinlayson/nilaway/annotation"
+	"github.com/josephfinlayson/nilaway/assertion/structfield"
+	"github.com/josephfinlayson/nilaway/util"
+	"github.com/josephfinlayson/nilaway/util/analysishelper"
 )
 
 // addProductionsForAssignmentFields adds production for each produce trigger in fieldProducers.

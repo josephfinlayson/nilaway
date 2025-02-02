@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"slices"
 
-	"go.uber.org/nilaway/annotation"
-	"go.uber.org/nilaway/assertion/function/assertiontree"
+	"github.com/josephfinlayson/nilaway/annotation"
+	"github.com/josephfinlayson/nilaway/assertion/function/assertiontree"
 	"golang.org/x/tools/go/analysis"
 )
 

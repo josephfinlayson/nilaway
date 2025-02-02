@@ -14,7 +14,7 @@
 
 package producer
 
-import "go.uber.org/nilaway/annotation"
+import "github.com/josephfinlayson/nilaway/annotation"
 
 // ShallowParsedProducer is a ParsedProducer that does not contain information about deeply
 // produced values

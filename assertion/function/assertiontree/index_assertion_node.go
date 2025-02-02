@@ -18,7 +18,7 @@ import (
 	"go/ast"
 	"go/types"
 
-	"go.uber.org/nilaway/annotation"
+	"github.com/josephfinlayson/nilaway/annotation"
 )
 
 type indexAssertionNode struct {

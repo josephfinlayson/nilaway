@@ -19,7 +19,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
-	"go.uber.org/nilaway/util/analysishelper"
+	"github.com/josephfinlayson/nilaway/util/analysishelper"
 )
 
 func TestAnalyzer(t *testing.T) {

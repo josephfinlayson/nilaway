@@ -21,8 +21,8 @@ import (
 	"fmt"
 
 	"github.com/golangci/plugin-module-register/register"
-	"go.uber.org/nilaway"
-	"go.uber.org/nilaway/config"
+	"github.com/josephfinlayson/nilaway"
+	"github.com/josephfinlayson/nilaway/config"
 	"golang.org/x/tools/go/analysis"
 )
 

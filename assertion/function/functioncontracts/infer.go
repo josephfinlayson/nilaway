@@ -18,7 +18,7 @@ import (
 	"go/token"
 	"go/types"
 
-	"go.uber.org/nilaway/util"
+	"github.com/josephfinlayson/nilaway/util"
 	"golang.org/x/tools/go/ssa"
 )
 

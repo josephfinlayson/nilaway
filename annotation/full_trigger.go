@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"go/token"
 
-	"go.uber.org/nilaway/util"
+	"github.com/josephfinlayson/nilaway/util"
 	"golang.org/x/tools/go/analysis"
 )
 

@@ -17,7 +17,7 @@ package inference
 import (
 	"fmt"
 
-	"go.uber.org/nilaway/util/orderedmap"
+	"github.com/josephfinlayson/nilaway/util/orderedmap"
 )
 
 // An InferredVal is the information that we export about an annotation site after having

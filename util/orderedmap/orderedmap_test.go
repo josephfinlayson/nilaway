@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
-	"go.uber.org/nilaway/util/orderedmap"
+	"github.com/josephfinlayson/nilaway/util/orderedmap"
 )
 
 func TestLoadStore(t *testing.T) {

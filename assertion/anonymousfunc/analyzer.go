@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"strconv"
 
-	"go.uber.org/nilaway/config"
-	"go.uber.org/nilaway/util/analysishelper"
+	"github.com/josephfinlayson/nilaway/config"
+	"github.com/josephfinlayson/nilaway/util/analysishelper"
 	"golang.org/x/tools/go/analysis"
 )
 

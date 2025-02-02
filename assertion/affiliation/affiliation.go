@@ -21,9 +21,9 @@ import (
 	"go/types"
 	"strings"
 
-	"go.uber.org/nilaway/annotation"
-	"go.uber.org/nilaway/config"
-	"go.uber.org/nilaway/util"
+	"github.com/josephfinlayson/nilaway/annotation"
+	"github.com/josephfinlayson/nilaway/config"
+	"github.com/josephfinlayson/nilaway/util"
 	"golang.org/x/tools/go/analysis"
 )
 

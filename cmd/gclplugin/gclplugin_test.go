@@ -19,8 +19,8 @@ import (
 
 	"github.com/golangci/plugin-module-register/register"
 	"github.com/stretchr/testify/require"
-	"go.uber.org/nilaway"
-	"go.uber.org/nilaway/config"
+	"github.com/josephfinlayson/nilaway"
+	"github.com/josephfinlayson/nilaway/config"
 )
 
 func TestPlugin(t *testing.T) {

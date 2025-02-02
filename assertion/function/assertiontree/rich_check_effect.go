@@ -20,9 +20,9 @@ import (
 	"go/token"
 	"go/types"
 
-	"go.uber.org/nilaway/annotation"
-	"go.uber.org/nilaway/util"
-	"go.uber.org/nilaway/util/asthelper"
+	"github.com/josephfinlayson/nilaway/annotation"
+	"github.com/josephfinlayson/nilaway/util"
+	"github.com/josephfinlayson/nilaway/util/asthelper"
 	"golang.org/x/tools/go/cfg"
 )
 

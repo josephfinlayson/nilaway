@@ -17,9 +17,9 @@ package affiliation
 import (
 	"reflect"
 
-	"go.uber.org/nilaway/annotation"
-	"go.uber.org/nilaway/config"
-	"go.uber.org/nilaway/util/analysishelper"
+	"github.com/josephfinlayson/nilaway/annotation"
+	"github.com/josephfinlayson/nilaway/config"
+	"github.com/josephfinlayson/nilaway/util/analysishelper"
 	"golang.org/x/tools/go/analysis"
 )
 

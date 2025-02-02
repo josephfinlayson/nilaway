@@ -19,10 +19,10 @@ import (
 	"go/token"
 	"go/types"
 
-	"go.uber.org/nilaway/annotation"
-	"go.uber.org/nilaway/assertion/function/producer"
-	"go.uber.org/nilaway/hook"
-	"go.uber.org/nilaway/util"
+	"github.com/josephfinlayson/nilaway/annotation"
+	"github.com/josephfinlayson/nilaway/assertion/function/producer"
+	"github.com/josephfinlayson/nilaway/hook"
+	"github.com/josephfinlayson/nilaway/util"
 )
 
 // ParseExprAsProducer takes an expression, and determines whether it is `trackable` - i.e. if it is a

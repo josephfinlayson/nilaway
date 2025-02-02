@@ -23,7 +23,7 @@ import (
 	"reflect"
 
 	"github.com/stretchr/testify/mock"
-	"go.uber.org/nilaway/util"
+	"github.com/josephfinlayson/nilaway/util"
 	"golang.org/x/tools/go/packages"
 )
 

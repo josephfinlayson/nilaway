@@ -17,9 +17,9 @@
 package nilaway
 
 import (
-	"go.uber.org/nilaway/accumulation"
-	"go.uber.org/nilaway/config"
-	"go.uber.org/nilaway/util"
+	"github.com/josephfinlayson/nilaway/accumulation"
+	"github.com/josephfinlayson/nilaway/config"
+	"github.com/josephfinlayson/nilaway/util"
 	"golang.org/x/tools/go/analysis"
 )
 

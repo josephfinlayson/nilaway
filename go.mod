@@ -1,4 +1,4 @@
-module go.uber.org/nilaway
+module github.com/josephfinlayson/nilaway
 
 go 1.22
 

@@ -17,7 +17,7 @@ package assertiontree
 import (
 	"go/ast"
 
-	"go.uber.org/nilaway/annotation"
+	"github.com/josephfinlayson/nilaway/annotation"
 )
 
 // An AssertionNode is the root of a tree of assertions, so it contains parent and child pointers, as well as a set

@@ -25,9 +25,9 @@ import (
 	"path/filepath"
 	"slices"
 
-	"go.uber.org/nilaway/annotation"
-	"go.uber.org/nilaway/inference"
-	"go.uber.org/nilaway/util"
+	"github.com/josephfinlayson/nilaway/annotation"
+	"github.com/josephfinlayson/nilaway/inference"
+	"github.com/josephfinlayson/nilaway/util"
 	"golang.org/x/tools/go/analysis"
 )
 

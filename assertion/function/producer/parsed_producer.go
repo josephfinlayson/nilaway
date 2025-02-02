@@ -15,7 +15,7 @@
 // Package producer contains definitions for parsed producers, which are the result of ParseExprAsProducer.
 package producer
 
-import "go.uber.org/nilaway/annotation"
+import "github.com/josephfinlayson/nilaway/annotation"
 
 // ParsedProducer is one of the output objects of ParseExprAsProducer - it represents a production
 // of a value, interfaced to abstract away the potential to also include deep production of that

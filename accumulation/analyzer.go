@@ -23,13 +23,13 @@ import (
 	"reflect"
 	"runtime/debug"
 
-	"go.uber.org/nilaway/annotation"
-	"go.uber.org/nilaway/assertion"
-	"go.uber.org/nilaway/assertion/function/assertiontree"
-	"go.uber.org/nilaway/config"
-	"go.uber.org/nilaway/diagnostic"
-	"go.uber.org/nilaway/inference"
-	"go.uber.org/nilaway/util/analysishelper"
+	"github.com/josephfinlayson/nilaway/annotation"
+	"github.com/josephfinlayson/nilaway/assertion"
+	"github.com/josephfinlayson/nilaway/assertion/function/assertiontree"
+	"github.com/josephfinlayson/nilaway/config"
+	"github.com/josephfinlayson/nilaway/diagnostic"
+	"github.com/josephfinlayson/nilaway/inference"
+	"github.com/josephfinlayson/nilaway/util/analysishelper"
 	"golang.org/x/tools/go/analysis"
 )
 

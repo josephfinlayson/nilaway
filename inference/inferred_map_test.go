@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
-	"go.uber.org/nilaway/annotation"
+	"github.com/josephfinlayson/nilaway/annotation"
 )
 
 // BenchmarkGobEncoding benchmarks the gob encoding of an inferred map to test the overhead.
