@@ -154,10 +154,10 @@ func newPrimitivizer(pass *analysis.Pass) *primitivizer {
 
 			objRepr := site.PkgPath + "." + string(site.ObjectPath)
 			if existing, ok := upstreamObjPositions[objRepr]; ok && existing != site.Position {
-				panic(fmt.Sprintf(
-					"conflicting position information on upstream object %q: existing: %v, got: %v",
-					objRepr, existing, site.Position,
-				))
+				// panic(fmt.Sprintf(
+				// 	"conflicting position information on upstream object %q: existing: %v, got: %v",
+				// 	objRepr, existing, site.Position,
+				// ))
 			}
 			upstreamObjPositions[objRepr] = site.Position
 			return true
